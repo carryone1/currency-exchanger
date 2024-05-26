@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #5386E4;
+}
+
+.amount p {
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.converter {
+    background-color: #ABA8B2;
+    height: 40vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+
+}
+.position p{
+    font-weight: 900;
+}
+
+img {
+    width: 2rem;
+    
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.to{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.select-converter {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+.icon{
+     margin-top: 27px;
+     font-size: 20px;
+}
+.msg{
+    margin: 20px
+}
+ button{
+    ;
+ }
